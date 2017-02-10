@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240B6330C9A29F3484B861C4 /* Pods_FriendChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41276CA52ADE0261B330B496 /* Pods_FriendChat.framework */; };
 		AF67A67C1E43204D00F6ADED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67A67B1E43204D00F6ADED /* AppDelegate.swift */; };
 		AF67A67E1E43204D00F6ADED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67A67D1E43204D00F6ADED /* ViewController.swift */; };
 		AF67A6811E43204D00F6ADED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF67A67F1E43204D00F6ADED /* Main.storyboard */; };
 		AF67A6831E43204D00F6ADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF67A6821E43204D00F6ADED /* Assets.xcassets */; };
 		AF67A6861E43204D00F6ADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF67A6841E43204D00F6ADED /* LaunchScreen.storyboard */; };
+		AF67A68E1E43207700F6ADED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF67A68D1E43207700F6ADED /* GoogleService-Info.plist */; };
+		AF67A6921E432DB100F6ADED /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67A6911E432DB100F6ADED /* UserTableViewController.swift */; };
+		AF67A6941E432DED00F6ADED /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67A6931E432DED00F6ADED /* UserTableViewCell.swift */; };
+		AF6C0C5E1E44706000C2FD2C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6C0C5D1E44706000C2FD2C /* ChatViewController.swift */; };
+		AFB76D081E4822A9004B2B2D /* profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB76D071E4822A9004B2B2D /* profile_picture.png */; };
+		AFBA09831E4DC21100F99A94 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA09821E4DC21100F99A94 /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E77D7D5BB1B0F2BA8E7B787 /* Pods-FriendChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendChat/Pods-FriendChat.release.xcconfig"; sourceTree = "<group>"; };
+		41276CA52ADE0261B330B496 /* Pods_FriendChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A8433E4857062879438095 /* Pods-FriendChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendChat/Pods-FriendChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AF67A6781E43204D00F6ADED /* FriendChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF67A67B1E43204D00F6ADED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF67A67D1E43204D00F6ADED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,13 @@
 		AF67A6821E43204D00F6ADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF67A6851E43204D00F6ADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF67A6871E43204D00F6ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF67A68D1E43207700F6ADED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF67A6911E432DB100F6ADED /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		AF67A6931E432DED00F6ADED /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		AF6C0C5D1E44706000C2FD2C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AFB76D071E4822A9004B2B2D /* profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_picture.png; sourceTree = "<group>"; };
+		AFB76D091E4834D6004B2B2D /* FriendChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FriendChat.entitlements; sourceTree = "<group>"; };
+		AFBA09821E4DC21100F99A94 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240B6330C9A29F3484B861C4 /* Pods_FriendChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75260022CC11280D622FC5E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41276CA52ADE0261B330B496 /* Pods_FriendChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A557A8FF75376DB442AD69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57A8433E4857062879438095 /* Pods-FriendChat.debug.xcconfig */,
+				3E77D7D5BB1B0F2BA8E7B787 /* Pods-FriendChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF67A66F1E43204C00F6ADED = {
 			isa = PBXGroup;
 			children = (
 				AF67A67A1E43204D00F6ADED /* FriendChat */,
 				AF67A6791E43204D00F6ADED /* Products */,
+				75A557A8FF75376DB442AD69 /* Pods */,
+				75260022CC11280D622FC5E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,53 @@
 		AF67A67A1E43204D00F6ADED /* FriendChat */ = {
 			isa = PBXGroup;
 			children = (
+				AFB76D091E4834D6004B2B2D /* FriendChat.entitlements */,
+				AFB76D061E482295004B2B2D /* images */,
+				AF6C0C5C1E44704700C2FD2C /* Chat */,
+				AF67A6901E432DA100F6ADED /* Users */,
+				AF67A68F1E432C6900F6ADED /* Login */,
+				AF67A68D1E43207700F6ADED /* GoogleService-Info.plist */,
 				AF67A67B1E43204D00F6ADED /* AppDelegate.swift */,
-				AF67A67D1E43204D00F6ADED /* ViewController.swift */,
 				AF67A67F1E43204D00F6ADED /* Main.storyboard */,
 				AF67A6821E43204D00F6ADED /* Assets.xcassets */,
 				AF67A6841E43204D00F6ADED /* LaunchScreen.storyboard */,
 				AF67A6871E43204D00F6ADED /* Info.plist */,
 			);
 			path = FriendChat;
+			sourceTree = "<group>";
+		};
+		AF67A68F1E432C6900F6ADED /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF67A67D1E43204D00F6ADED /* ViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AF67A6901E432DA100F6ADED /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				AF67A6911E432DB100F6ADED /* UserTableViewController.swift */,
+				AF67A6931E432DED00F6ADED /* UserTableViewCell.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		AF6C0C5C1E44704700C2FD2C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				AF6C0C5D1E44706000C2FD2C /* ChatViewController.swift */,
+				AFBA09821E4DC21100F99A94 /* ChatTableViewCell.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		AFB76D061E482295004B2B2D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AFB76D071E4822A9004B2B2D /* profile_picture.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF67A68A1E43204D00F6ADED /* Build configuration list for PBXNativeTarget "FriendChat" */;
 			buildPhases = (
+				ACA507A9E744DA26AF9BB618 /* [CP] Check Pods Manifest.lock */,
 				AF67A6741E43204C00F6ADED /* Sources */,
 				AF67A6751E43204C00F6ADED /* Frameworks */,
 				AF67A6761E43204C00F6ADED /* Resources */,
+				30B6064570A50197D046B35D /* [CP] Embed Pods Frameworks */,
+				2DF7452936FD46D2E3A41703 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +177,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U55RL8468U;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,17 +211,71 @@
 				AF67A6861E43204D00F6ADED /* LaunchScreen.storyboard in Resources */,
 				AF67A6831E43204D00F6ADED /* Assets.xcassets in Resources */,
 				AF67A6811E43204D00F6ADED /* Main.storyboard in Resources */,
+				AFB76D081E4822A9004B2B2D /* profile_picture.png in Resources */,
+				AF67A68E1E43207700F6ADED /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF7452936FD46D2E3A41703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendChat/Pods-FriendChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B6064570A50197D046B35D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendChat/Pods-FriendChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA507A9E744DA26AF9BB618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF67A6741E43204C00F6ADED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF67A6941E432DED00F6ADED /* UserTableViewCell.swift in Sources */,
 				AF67A67E1E43204D00F6ADED /* ViewController.swift in Sources */,
+				AF67A6921E432DB100F6ADED /* UserTableViewController.swift in Sources */,
+				AFBA09831E4DC21100F99A94 /* ChatTableViewCell.swift in Sources */,
+				AF6C0C5E1E44706000C2FD2C /* ChatViewController.swift in Sources */,
 				AF67A67C1E43204D00F6ADED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +395,10 @@
 		};
 		AF67A68B1E43204D00F6ADED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A8433E4857062879438095 /* Pods-FriendChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FriendChat/FriendChat.entitlements;
 				DEVELOPMENT_TEAM = U55RL8468U;
 				INFOPLIST_FILE = FriendChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -270,8 +410,10 @@
 		};
 		AF67A68C1E43204D00F6ADED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E77D7D5BB1B0F2BA8E7B787 /* Pods-FriendChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FriendChat/FriendChat.entitlements;
 				DEVELOPMENT_TEAM = U55RL8468U;
 				INFOPLIST_FILE = FriendChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +442,7 @@
 				AF67A68C1E43204D00F6ADED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

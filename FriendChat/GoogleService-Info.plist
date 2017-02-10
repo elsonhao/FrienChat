@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>969333354765-ut9vtkt08p0febdpu88r94bf7fdbqncb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.969333354765-ut9vtkt08p0febdpu88r94bf7fdbqncb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvikaEzthi3fe42TFUUeBDc2Khr7_p3OQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>969333354765</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.elson.FriendChat</string>
+	<key>PROJECT_ID</key>
+	<string>friendchats-23a11</string>
+	<key>STORAGE_BUCKET</key>
+	<string>friendchats-23a11.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:969333354765:ios:f822b2d484e66233</string>
+	<key>DATABASE_URL</key>
+	<string>https://friendchats-23a11.firebaseio.com</string>
+</dict>
+</plist>
