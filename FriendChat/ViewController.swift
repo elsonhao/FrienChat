@@ -29,7 +29,15 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         super.viewDidLoad()
         setUpbutton()
         
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
+            
+        
+        
         profilePicture.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectProfileimage)))
+    }
+    
+    func  hideKeyboard () {
+        self.view.endEditing(true)
     }
     
     func selectProfileimage(){

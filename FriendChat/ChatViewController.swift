@@ -65,6 +65,7 @@ class ChatViewController: UIViewController,UITextFieldDelegate,UITableViewDataSo
 //                    self.chatTableView.reloadData()
                     
                     //insertRow方法跟reloadData 很像,只是insertRow 會有動態的更新動畫,會呼叫numberOfRowsInSection 方法,已更新產生新的一列
+                    
                    self.chatTableView.insertRows(at: [IndexPath(row:self.messages.count-1,section : 0)], with: .automatic)
                     print("Message as of now \(self.messages.count)")
                     
